@@ -31,6 +31,7 @@
 		7D41FFCD1E7765EA002F01E1 /* whackMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FFBF1E7765EA002F01E1 /* whackMask.png */; };
 		7D41FFCE1E7765EA002F01E1 /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FFC01E7765EA002F01E1 /* whackMask@2x.png */; };
 		7D41FFD01E7765F3002F01E1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FFCF1E7765F3002F01E1 /* Helper.swift */; };
+		7D41FFD21E7767CE002F01E1 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FFD11E7767CE002F01E1 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		7D41FFBF1E7765EA002F01E1 /* whackMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackMask.png; sourceTree = "<group>"; };
 		7D41FFC01E7765EA002F01E1 /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
 		7D41FFCF1E7765F3002F01E1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7D41FFD11E7767CE002F01E1 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				7D41FF8B1E776477002F01E1 /* LaunchScreen.storyboard */,
 				7D41FF8E1E776477002F01E1 /* Info.plist */,
 				7D41FFCF1E7765F3002F01E1 /* Helper.swift */,
+				7D41FFD11E7767CE002F01E1 /* WhackSlot.swift */,
 			);
 			path = "Whack-a-Penguin";
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D41FF831E776477002F01E1 /* GameScene.swift in Sources */,
+				7D41FFD21E7767CE002F01E1 /* WhackSlot.swift in Sources */,
 				7D41FF851E776477002F01E1 /* GameViewController.swift in Sources */,
 				7D41FF7D1E776477002F01E1 /* AppDelegate.swift in Sources */,
 				7D41FFD01E7765F3002F01E1 /* Helper.swift in Sources */,
